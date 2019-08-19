@@ -1,0 +1,17 @@
+{"cod": "200", "message": 0.0072, "cnt": 40, "list":
+[{"dt": 1566118800,
+  "main": {"temp": 288.36, "temp_min": 288.36, "temp_max": 288.7, "pressure": 1004.23, "sea_level": 1004.23,
+    "grnd_level": 999.22, "humidity": 78, "temp_kf": -0.34}, "weather": [{"id": 500, "main": "Rain",
+  "description": "light rain", "icon": "10d"}], "clouds": {"all": 99}, "wind": {"speed": 4.8, "deg": 236.684},
+  "rain": {"3h": 1.562}, "sys": {"pod": "d"}, "dt_txt": "2019-08-18 09:00:00"},
+  {"dt": 1566129600,
+  "main": {"temp": 292.72, "temp_min": 292.72, "temp_max": 292.978, "pressure": 1004.75, "sea_level": 1004.75,
+    "grnd_level": 999.63, "humidity": 51, "temp_kf": -0.26}, "weather": [{"id": 500, "main": "Rain",
+    "description": "light rain", "icon": "10d"}], "clouds": {"all": 50}, "wind": {"speed": 6.9, "deg": 248.098},
+  "rain": {"3h": 0.063}, "sys": {"pod": "d"}, "dt_txt": "2019-08-18 12:00:00"},
+  {"dt": 1566140400,
+    "main": {"temp": 293.23, "temp_min": 293.23, "temp_max": 293.4, "pressure": 1005.92, "sea_level": 1005.92,
+      "grnd_level": 1000.51, "humidity": 52, "temp_kf": -0.17}, "weather": [{"id": 500, "main": "Rain",
+    "description": "light rain", "icon": "10d"}], "clouds": {"all": 50}, "wind": {"speed": 6.87, "deg": 250.52},
+    "rain": {"3h": 0.188}, "sys": {"pod": "d"}, "dt_txt": "2019-08-18 15:00:00"}
+  ]}

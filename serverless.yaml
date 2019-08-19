@@ -1,0 +1,28 @@
+service: serverles-project-jira
+
+provider:
+  name: aws
+  runtime: python3.7
+  stage: dev
+  region: us-west-2
+
+  iamRoleStatements:
+    - Effect: Allow
+      Action: 'ssm:GetParameters'
+      Resource:
+        - 'arn:aws:ssm:us-west-2:*:parameter/jira-user'
+        - 'arn:aws:ssm:us-west-2:*:parameter/jira-password'
+        - 'arn:aws:ssm:us-west-2:*:parameter/jira-project-name'
+
+
+
+plugins:
+  - serverless-python-requirements
+
+functions:
+  jira:
+    handler: handler.create_jira_tickets
+    events:
+      - schedule:
+          rate: cron(* * */2 * ? *)
+          enabled: true
