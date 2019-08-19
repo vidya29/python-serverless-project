@@ -12,12 +12,6 @@ jira_username = utilities.get_parameter("jira-user")
 jira_password = utilities.get_parameter("jira-password")
 project = utilities.get_parameter("jira-project-name")
 
-# project = 'TEST'
-#
-#
-# jira_username = 'vidya'
-# jira_password = 'pass'
-
 #jira_url = 'http://52.42.78.141:8080'
 jira_url = 'http://localhost:5050'
 
