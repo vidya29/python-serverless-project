@@ -14,8 +14,8 @@ def create_jira_tickets(event, context):
     """
     
     headers = {
-        'x-rapidapi-host': "community-open-weather-map.p.rapidapi.com",
-        'x-rapidapi-key': "af6d270c3bmsha010ee698d0f9bap1231d0jsnaa4f4c817c0f"
+        'x-rapidapi-host': "your_api_host",
+        'x-rapidapi-key': "your_api_key"
     }
     url = "https://community-open-weather-map.p.rapidapi.com/forecast"
 
